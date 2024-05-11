@@ -84,6 +84,14 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox1 = new PictureBox();
             logout = new Guna.UI2.WinForms.Guna2Button();
@@ -92,6 +100,7 @@
             products = new Guna.UI2.WinForms.Guna2Button();
             dashboard = new Guna.UI2.WinForms.Guna2Button();
             dashboard_panel = new Guna.UI2.WinForms.Guna2Panel();
+            label12 = new Label();
             label11 = new Label();
             label10 = new Label();
             label9 = new Label();
@@ -113,7 +122,16 @@
             label2 = new Label();
             label1 = new Label();
             revenue_dataset = new Guna.Charts.WinForms.GunaLineDataset();
-            label12 = new Label();
+            product_panel = new Guna.UI2.WinForms.Guna2Panel();
+            label15 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            food_package_img = new PictureBox();
+            guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            lechon_belly_img = new PictureBox();
+            guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
+            whole_lechon_img = new PictureBox();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             dashboard_panel.SuspendLayout();
@@ -121,6 +139,13 @@
             guna2Panel4.SuspendLayout();
             guna2Panel3.SuspendLayout();
             guna2Panel2.SuspendLayout();
+            product_panel.SuspendLayout();
+            guna2Panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)food_package_img).BeginInit();
+            guna2Panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)lechon_belly_img).BeginInit();
+            guna2Panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)whole_lechon_img).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -301,6 +326,18 @@
             dashboard_panel.ShadowDecoration.CustomizableEdges = customizableEdges22;
             dashboard_panel.Size = new Size(1080, 567);
             dashboard_panel.TabIndex = 1;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.BackColor = Color.FromArgb(250, 241, 214);
+            label12.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            label12.ForeColor = Color.FromArgb(134, 43, 13);
+            label12.Location = new Point(1006, 434);
+            label12.Name = "label12";
+            label12.Size = new Size(32, 15);
+            label12.TabIndex = 9;
+            label12.Text = "35%";
             // 
             // label11
             // 
@@ -597,17 +634,134 @@
             revenue_dataset.PointFillColors.AddRange(new Color[] { Color.FromArgb(34, 40, 49) });
             revenue_dataset.PointRadius = 3;
             // 
-            // label12
+            // product_panel
             // 
-            label12.AutoSize = true;
-            label12.BackColor = Color.FromArgb(250, 241, 214);
-            label12.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            label12.ForeColor = Color.FromArgb(134, 43, 13);
-            label12.Location = new Point(1006, 434);
-            label12.Name = "label12";
-            label12.Size = new Size(32, 15);
-            label12.TabIndex = 9;
-            label12.Text = "35%";
+            product_panel.Controls.Add(label15);
+            product_panel.Controls.Add(label13);
+            product_panel.Controls.Add(label14);
+            product_panel.Controls.Add(guna2Panel8);
+            product_panel.Controls.Add(guna2Panel7);
+            product_panel.Controls.Add(guna2Panel6);
+            product_panel.CustomizableEdges = customizableEdges29;
+            product_panel.Location = new Point(199, 11);
+            product_panel.Name = "product_panel";
+            product_panel.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            product_panel.ShadowDecoration.Depth = 20;
+            product_panel.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            product_panel.ShadowDecoration.Shadow = new Padding(15);
+            product_panel.Size = new Size(1080, 567);
+            product_panel.TabIndex = 10;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.BackColor = Color.FromArgb(250, 241, 214);
+            label15.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = Color.FromArgb(121, 84, 88);
+            label15.Location = new Point(805, 466);
+            label15.Name = "label15";
+            label15.Size = new Size(182, 29);
+            label15.TabIndex = 3;
+            label15.Text = "Food Package";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = Color.FromArgb(250, 241, 214);
+            label13.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.ForeColor = Color.FromArgb(121, 84, 88);
+            label13.Location = new Point(95, 466);
+            label13.Name = "label13";
+            label13.Size = new Size(179, 29);
+            label13.TabIndex = 1;
+            label13.Text = "Whole Lechon";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.BackColor = Color.FromArgb(250, 241, 214);
+            label14.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = Color.FromArgb(121, 84, 88);
+            label14.Location = new Point(464, 466);
+            label14.Name = "label14";
+            label14.Size = new Size(163, 29);
+            label14.TabIndex = 2;
+            label14.Text = "Lechon Belly";
+            // 
+            // guna2Panel8
+            // 
+            guna2Panel8.BorderRadius = 10;
+            guna2Panel8.Controls.Add(food_package_img);
+            guna2Panel8.CustomizableEdges = customizableEdges23;
+            guna2Panel8.FillColor = Color.FromArgb(121, 84, 88);
+            guna2Panel8.Location = new Point(736, 80);
+            guna2Panel8.Name = "guna2Panel8";
+            guna2Panel8.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2Panel8.Size = new Size(322, 369);
+            guna2Panel8.TabIndex = 2;
+            // 
+            // food_package_img
+            // 
+            food_package_img.BackColor = Color.FromArgb(121, 84, 88);
+            food_package_img.Image = (Image)resources.GetObject("food_package_img.Image");
+            food_package_img.Location = new Point(24, 35);
+            food_package_img.Name = "food_package_img";
+            food_package_img.Size = new Size(275, 299);
+            food_package_img.SizeMode = PictureBoxSizeMode.Zoom;
+            food_package_img.TabIndex = 0;
+            food_package_img.TabStop = false;
+            food_package_img.Click += food_package_img_Click;
+            // 
+            // guna2Panel7
+            // 
+            guna2Panel7.BorderRadius = 10;
+            guna2Panel7.Controls.Add(lechon_belly_img);
+            guna2Panel7.CustomizableEdges = customizableEdges25;
+            guna2Panel7.FillColor = Color.FromArgb(121, 84, 88);
+            guna2Panel7.Location = new Point(382, 80);
+            guna2Panel7.Name = "guna2Panel7";
+            guna2Panel7.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2Panel7.Size = new Size(322, 369);
+            guna2Panel7.TabIndex = 1;
+            // 
+            // lechon_belly_img
+            // 
+            lechon_belly_img.BackColor = Color.FromArgb(121, 84, 88);
+            lechon_belly_img.Image = (Image)resources.GetObject("lechon_belly_img.Image");
+            lechon_belly_img.Location = new Point(32, 52);
+            lechon_belly_img.Name = "lechon_belly_img";
+            lechon_belly_img.Size = new Size(260, 262);
+            lechon_belly_img.SizeMode = PictureBoxSizeMode.Zoom;
+            lechon_belly_img.TabIndex = 0;
+            lechon_belly_img.TabStop = false;
+            lechon_belly_img.Click += lechon_belly_img_Click;
+            // 
+            // guna2Panel6
+            // 
+            guna2Panel6.BackColor = Color.Transparent;
+            guna2Panel6.BorderRadius = 10;
+            guna2Panel6.Controls.Add(whole_lechon_img);
+            guna2Panel6.CustomizableEdges = customizableEdges27;
+            guna2Panel6.FillColor = Color.FromArgb(121, 84, 88);
+            guna2Panel6.Location = new Point(28, 80);
+            guna2Panel6.Name = "guna2Panel6";
+            guna2Panel6.ShadowDecoration.BorderRadius = 10;
+            guna2Panel6.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            guna2Panel6.ShadowDecoration.Shadow = new Padding(0);
+            guna2Panel6.Size = new Size(322, 369);
+            guna2Panel6.TabIndex = 0;
+            // 
+            // whole_lechon_img
+            // 
+            whole_lechon_img.BackColor = Color.FromArgb(121, 84, 88);
+            whole_lechon_img.Image = (Image)resources.GetObject("whole_lechon_img.Image");
+            whole_lechon_img.Location = new Point(21, 52);
+            whole_lechon_img.Name = "whole_lechon_img";
+            whole_lechon_img.Size = new Size(280, 262);
+            whole_lechon_img.SizeMode = PictureBoxSizeMode.Zoom;
+            whole_lechon_img.TabIndex = 0;
+            whole_lechon_img.TabStop = false;
+            whole_lechon_img.Click += whole_lechon_img_Click;
             // 
             // Form1
             // 
@@ -615,6 +769,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 241, 214);
             ClientSize = new Size(1291, 590);
+            Controls.Add(product_panel);
             Controls.Add(dashboard_panel);
             Controls.Add(guna2Panel1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -632,6 +787,14 @@
             guna2Panel3.PerformLayout();
             guna2Panel2.ResumeLayout(false);
             guna2Panel2.PerformLayout();
+            product_panel.ResumeLayout(false);
+            product_panel.PerformLayout();
+            guna2Panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)food_package_img).EndInit();
+            guna2Panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)lechon_belly_img).EndInit();
+            guna2Panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)whole_lechon_img).EndInit();
             ResumeLayout(false);
         }
 
@@ -667,5 +830,15 @@
         private Label label11;
         private Label label10;
         private Label label12;
+        private Guna.UI2.WinForms.Guna2Panel product_panel;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
+        private PictureBox whole_lechon_img;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
+        private PictureBox food_package_img;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
+        private PictureBox lechon_belly_img;
+        private Label label13;
+        private Label label15;
+        private Label label14;
     }
 }

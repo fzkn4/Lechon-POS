@@ -26,6 +26,7 @@ namespace Lechon_POS
         private void hide_panels()
         {
             dashboard_panel.Visible = false;
+            product_panel.Visible = false;
         }
 
         private void dashboard_Click(object sender, EventArgs e)
@@ -41,6 +42,8 @@ namespace Lechon_POS
         private void products_Click(object sender, EventArgs e)
         {
             selected_button(products, customer, sales, dashboard);
+            hide_panels();
+            product_panel.Visible = true;
 
         }
 
@@ -68,7 +71,7 @@ namespace Lechon_POS
                 //random number
                 int num = r.Next(10, 100);
 
-               revenue_dataset.DataPoints.Add(months[i], num);
+                revenue_dataset.DataPoints.Add(months[i], num);
             }
 
             //Add a new dataset to a chart.Datasets
@@ -81,6 +84,22 @@ namespace Lechon_POS
         private void display_sales_cat_chart(Guna.Charts.WinForms.GunaChart chart)
         {
             chart.Update();
+        }
+
+        private void lechon_belly_img_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void food_package_img_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void whole_lechon_img_Click(object sender, EventArgs e)
+        {
+            lechon_transaction window  = new lechon_transaction();
+            window.ShowDialog();
         }
     }
 }

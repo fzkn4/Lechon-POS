@@ -57,6 +57,14 @@
             "Guna.UI2.WinForms": {
               "target": "Package",
               "version": "[2.0.4.6, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.3.7, )"
             }
           },
           "imports": [
