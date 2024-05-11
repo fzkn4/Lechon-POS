@@ -88,12 +88,14 @@ namespace Lechon_POS
 
         private void lechon_belly_img_Click(object sender, EventArgs e)
         {
-
+            lechon_belly_transaction window = new lechon_belly_transaction();
+            window.ShowDialog();
         }
 
         private void food_package_img_Click(object sender, EventArgs e)
         {
-
+            food_package_transaction window = new food_package_transaction();
+            window.ShowDialog();
         }
 
         private void whole_lechon_img_Click(object sender, EventArgs e)

@@ -56,6 +56,9 @@
             customer_name = new Guna.UI2.WinForms.Guna2TextBox();
             label1 = new Label();
             kilo_amount = new Guna.UI2.WinForms.Guna2TextBox();
+            label2 = new Label();
+            label3 = new Label();
+            change = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             guna2Panel6.SuspendLayout();
             SuspendLayout();
@@ -98,7 +101,7 @@
             clear.ForeColor = Color.FromArgb(121, 84, 88);
             clear.HoverState.BorderColor = Color.FromArgb(251, 204, 27);
             clear.HoverState.FillColor = Color.FromArgb(251, 204, 27);
-            clear.Location = new Point(309, 371);
+            clear.Location = new Point(310, 433);
             clear.Name = "clear";
             clear.ShadowDecoration.CustomizableEdges = customizableEdges2;
             clear.Size = new Size(131, 39);
@@ -111,7 +114,7 @@
             label6.BackColor = Color.FromArgb(251, 204, 27);
             label6.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
             label6.ForeColor = Color.FromArgb(121, 84, 88);
-            label6.Location = new Point(14, 0);
+            label6.Location = new Point(14, 8);
             label6.Name = "label6";
             label6.Size = new Size(46, 18);
             label6.TabIndex = 10;
@@ -134,12 +137,13 @@
             confirm_transaction.ForeColor = Color.FromArgb(121, 84, 88);
             confirm_transaction.HoverState.BorderColor = Color.FromArgb(251, 204, 27);
             confirm_transaction.HoverState.FillColor = Color.FromArgb(250, 241, 214);
-            confirm_transaction.Location = new Point(454, 371);
+            confirm_transaction.Location = new Point(455, 433);
             confirm_transaction.Name = "confirm_transaction";
             confirm_transaction.ShadowDecoration.CustomizableEdges = customizableEdges4;
             confirm_transaction.Size = new Size(128, 39);
-            confirm_transaction.TabIndex = 11;
+            confirm_transaction.TabIndex = 4;
             confirm_transaction.Text = "Confirm";
+            confirm_transaction.Click += confirm_transaction_Click;
             // 
             // guna2Panel6
             // 
@@ -170,14 +174,14 @@
             // total_amount
             // 
             total_amount.BackColor = Color.FromArgb(251, 204, 27);
-            total_amount.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            total_amount.Font = new Font("Microsoft New Tai Lue", 24F, FontStyle.Bold, GraphicsUnit.Point);
             total_amount.ForeColor = Color.FromArgb(121, 84, 88);
-            total_amount.Location = new Point(11, 34);
+            total_amount.Location = new Point(22, 24);
             total_amount.Name = "total_amount";
-            total_amount.Size = new Size(253, 29);
+            total_amount.Size = new Size(249, 60);
             total_amount.TabIndex = 14;
             total_amount.Text = "0.00";
-            total_amount.TextAlign = ContentAlignment.MiddleCenter;
+            total_amount.TextAlign = ContentAlignment.MiddleRight;
             // 
             // payment
             // 
@@ -204,8 +208,9 @@
             payment.SelectedText = "";
             payment.ShadowDecoration.CustomizableEdges = customizableEdges8;
             payment.Size = new Size(274, 37);
-            payment.TabIndex = 13;
+            payment.TabIndex = 3;
             payment.TextAlign = HorizontalAlignment.Right;
+            payment.TextChanged += payment_TextChanged;
             // 
             // label7
             // 
@@ -268,7 +273,7 @@
             customer_name.SelectedText = "";
             customer_name.ShadowDecoration.CustomizableEdges = customizableEdges10;
             customer_name.Size = new Size(274, 37);
-            customer_name.TabIndex = 17;
+            customer_name.TabIndex = 2;
             customer_name.TextAlign = HorizontalAlignment.Right;
             // 
             // label1
@@ -308,16 +313,54 @@
             kilo_amount.SelectedText = "";
             kilo_amount.ShadowDecoration.CustomizableEdges = customizableEdges12;
             kilo_amount.Size = new Size(274, 37);
-            kilo_amount.TabIndex = 19;
+            kilo_amount.TabIndex = 1;
             kilo_amount.TextAlign = HorizontalAlignment.Right;
             kilo_amount.TextChanged += kilo_amount_TextChanged;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.FromArgb(250, 241, 214);
+            label2.Font = new Font("Microsoft Sans Serif", 11.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(121, 84, 88);
+            label2.Location = new Point(329, 390);
+            label2.Name = "label2";
+            label2.Size = new Size(19, 18);
+            label2.TabIndex = 21;
+            label2.Text = "₱";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.FromArgb(250, 241, 214);
+            label3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.FromArgb(121, 84, 88);
+            label3.Location = new Point(323, 371);
+            label3.Name = "label3";
+            label3.Size = new Size(56, 15);
+            label3.TabIndex = 20;
+            label3.Text = "Change";
+            // 
+            // change
+            // 
+            change.BackColor = Color.FromArgb(250, 241, 214);
+            change.Font = new Font("Microsoft New Tai Lue", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            change.ForeColor = Color.FromArgb(121, 84, 88);
+            change.Location = new Point(324, 367);
+            change.Name = "change";
+            change.Size = new Size(253, 60);
+            change.TabIndex = 15;
+            change.Text = "0.00";
+            change.TextAlign = ContentAlignment.MiddleRight;
             // 
             // lechon_transaction
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 241, 214);
-            ClientSize = new Size(616, 436);
+            ClientSize = new Size(616, 500);
+            Controls.Add(label2);
+            Controls.Add(label3);
             Controls.Add(label1);
             Controls.Add(kilo_amount);
             Controls.Add(label);
@@ -330,6 +373,7 @@
             Controls.Add(clear);
             Controls.Add(label13);
             Controls.Add(pictureBox1);
+            Controls.Add(change);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "lechon_transaction";
             StartPosition = FormStartPosition.CenterScreen;
@@ -358,5 +402,8 @@
         private Guna.UI2.WinForms.Guna2TextBox customer_name;
         private Label label1;
         private Guna.UI2.WinForms.Guna2TextBox kilo_amount;
+        private Label label2;
+        private Label label3;
+        private Label change;
     }
 }
