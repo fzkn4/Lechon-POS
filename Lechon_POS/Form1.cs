@@ -1,10 +1,14 @@
 using Guna.Charts.WinForms;
 using Guna.UI2.WinForms;
+using MySqlConnector;
+using System.Configuration;
+using System.Data;
 
 namespace Lechon_POS
 {
     public partial class Form1 : Form
     {
+        static string con = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
         public Form1()
         {
             InitializeComponent();
@@ -12,7 +16,7 @@ namespace Lechon_POS
             display_sales_cat_chart(sales_cat);
             hide_panels();
             dashboard_panel.Visible = true;
-
+            updateTable();
         }
 
         private void selected_button(Guna2Button selected, Guna2Button button2, Guna2Button button3, Guna2Button button4)
@@ -27,6 +31,7 @@ namespace Lechon_POS
         {
             dashboard_panel.Visible = false;
             product_panel.Visible = false;
+            sales_panel.Visible = false;
         }
 
         private void dashboard_Click(object sender, EventArgs e)
@@ -50,7 +55,7 @@ namespace Lechon_POS
         private void sales_Click(object sender, EventArgs e)
         {
             selected_button(sales, customer, products, dashboard);
-
+            sales_panel.Visible = true;
         }
 
         private void customer_Click(object sender, EventArgs e)
@@ -90,18 +95,43 @@ namespace Lechon_POS
         {
             lechon_belly_transaction window = new lechon_belly_transaction();
             window.ShowDialog();
+            updateTable();
         }
 
         private void food_package_img_Click(object sender, EventArgs e)
         {
             food_package_transaction window = new food_package_transaction();
             window.ShowDialog();
+            updateTable();
+
         }
 
         private void whole_lechon_img_Click(object sender, EventArgs e)
         {
             lechon_transaction window  = new lechon_transaction();
             window.ShowDialog();
+            updateTable();
+
+        }
+
+
+        private void updateTable()
+        {
+            try
+            {
+                MySqlConnection con1 = new MySqlConnection(con);
+                MySqlCommand cmd = new MySqlCommand("SELECT transactionID , customerName, productName, paymentAmount, paymentChange, transactionDate from transaction", con1);
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                con1.Open();
+                DataSet ds = new DataSet();
+                da.Fill(ds, "transaction");
+                transaction_table.DataSource = ds.Tables["transaction"].DefaultView;
+                con1.Close();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
     }
 }

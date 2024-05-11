@@ -28,72 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.Charts.WinForms.ChartFont chartFont1 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont2 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont3 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont4 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid1 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick1 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont5 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid2 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick2 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont6 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid3 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel1 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont7 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick3 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont8 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.LPoint lPoint1 = new Guna.Charts.WinForms.LPoint();
+            Guna.Charts.WinForms.LPoint lPoint2 = new Guna.Charts.WinForms.LPoint();
+            Guna.Charts.WinForms.LPoint lPoint3 = new Guna.Charts.WinForms.LPoint();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.Charts.WinForms.ChartFont chartFont9 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont10 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont11 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont12 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid4 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick4 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont13 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid5 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick5 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont14 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid6 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel2 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont15 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick6 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont16 = new Guna.Charts.WinForms.ChartFont();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.Charts.WinForms.ChartFont chartFont17 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont18 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont19 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont20 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid7 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick7 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont21 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid8 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick8 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont22 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid9 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel3 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont23 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick9 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont24 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.LPoint lPoint4 = new Guna.Charts.WinForms.LPoint();
-            Guna.Charts.WinForms.LPoint lPoint5 = new Guna.Charts.WinForms.LPoint();
-            Guna.Charts.WinForms.LPoint lPoint6 = new Guna.Charts.WinForms.LPoint();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.Charts.WinForms.ChartFont chartFont25 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont26 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont27 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont28 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid10 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick10 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont29 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid11 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick11 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont30 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid12 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel4 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont31 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick12 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont32 = new Guna.Charts.WinForms.ChartFont();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges59 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges60 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox1 = new PictureBox();
             logout = new Guna.UI2.WinForms.Guna2Button();
@@ -135,6 +140,9 @@
             guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             whole_lechon_img = new PictureBox();
             sales_panel = new Guna.UI2.WinForms.Guna2Panel();
+            label16 = new Label();
+            guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
+            transaction_table = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             dashboard_panel.SuspendLayout();
@@ -149,6 +157,9 @@
             ((System.ComponentModel.ISupportInitialize)lechon_belly_img).BeginInit();
             guna2Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)whole_lechon_img).BeginInit();
+            sales_panel.SuspendLayout();
+            guna2Panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)transaction_table).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -159,11 +170,11 @@
             guna2Panel1.Controls.Add(sales);
             guna2Panel1.Controls.Add(products);
             guna2Panel1.Controls.Add(dashboard);
-            guna2Panel1.CustomizableEdges = customizableEdges43;
+            guna2Panel1.CustomizableEdges = customizableEdges11;
             guna2Panel1.Dock = DockStyle.Left;
             guna2Panel1.Location = new Point(0, 0);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges44;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Panel1.Size = new Size(193, 590);
             guna2Panel1.TabIndex = 0;
             // 
@@ -181,7 +192,7 @@
             // 
             logout.Animated = true;
             logout.BorderRadius = 10;
-            logout.CustomizableEdges = customizableEdges33;
+            logout.CustomizableEdges = customizableEdges1;
             logout.DisabledState.FillColor = Color.FromArgb(251, 204, 27);
             logout.DisabledState.ForeColor = Color.FromArgb(69, 69, 69);
             logout.DisabledState.Image = (Image)resources.GetObject("resource.Image");
@@ -197,7 +208,7 @@
             logout.Name = "logout";
             logout.PressedColor = Color.White;
             logout.PressedDepth = 25;
-            logout.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            logout.ShadowDecoration.CustomizableEdges = customizableEdges2;
             logout.Size = new Size(169, 40);
             logout.TabIndex = 4;
             logout.Text = "Logout";
@@ -207,7 +218,7 @@
             // 
             customer.Animated = true;
             customer.BorderRadius = 10;
-            customer.CustomizableEdges = customizableEdges35;
+            customer.CustomizableEdges = customizableEdges3;
             customer.DisabledState.FillColor = Color.FromArgb(251, 204, 27);
             customer.DisabledState.ForeColor = Color.FromArgb(69, 69, 69);
             customer.DisabledState.Image = (Image)resources.GetObject("resource.Image2");
@@ -223,7 +234,7 @@
             customer.Name = "customer";
             customer.PressedColor = Color.White;
             customer.PressedDepth = 25;
-            customer.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            customer.ShadowDecoration.CustomizableEdges = customizableEdges4;
             customer.Size = new Size(169, 40);
             customer.TabIndex = 3;
             customer.Text = "Customer";
@@ -234,7 +245,7 @@
             // 
             sales.Animated = true;
             sales.BorderRadius = 10;
-            sales.CustomizableEdges = customizableEdges37;
+            sales.CustomizableEdges = customizableEdges5;
             sales.DisabledState.FillColor = Color.FromArgb(251, 204, 27);
             sales.DisabledState.ForeColor = Color.FromArgb(69, 69, 69);
             sales.DisabledState.Image = (Image)resources.GetObject("resource.Image4");
@@ -250,7 +261,7 @@
             sales.Name = "sales";
             sales.PressedColor = Color.White;
             sales.PressedDepth = 25;
-            sales.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            sales.ShadowDecoration.CustomizableEdges = customizableEdges6;
             sales.Size = new Size(169, 40);
             sales.TabIndex = 2;
             sales.Text = "Sales";
@@ -261,7 +272,7 @@
             // 
             products.Animated = true;
             products.BorderRadius = 10;
-            products.CustomizableEdges = customizableEdges39;
+            products.CustomizableEdges = customizableEdges7;
             products.DisabledState.FillColor = Color.FromArgb(251, 204, 27);
             products.DisabledState.ForeColor = Color.FromArgb(69, 69, 69);
             products.DisabledState.Image = (Image)resources.GetObject("resource.Image6");
@@ -277,7 +288,7 @@
             products.Name = "products";
             products.PressedColor = Color.White;
             products.PressedDepth = 25;
-            products.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            products.ShadowDecoration.CustomizableEdges = customizableEdges8;
             products.Size = new Size(169, 40);
             products.TabIndex = 1;
             products.Text = "Products";
@@ -288,7 +299,7 @@
             // 
             dashboard.Animated = true;
             dashboard.BorderRadius = 10;
-            dashboard.CustomizableEdges = customizableEdges41;
+            dashboard.CustomizableEdges = customizableEdges9;
             dashboard.DisabledState.FillColor = Color.FromArgb(69, 69, 69);
             dashboard.DisabledState.ForeColor = Color.FromArgb(251, 204, 27);
             dashboard.DisabledState.Image = (Image)resources.GetObject("resource.Image8");
@@ -304,7 +315,7 @@
             dashboard.Name = "dashboard";
             dashboard.PressedColor = Color.White;
             dashboard.PressedDepth = 25;
-            dashboard.ShadowDecoration.CustomizableEdges = customizableEdges42;
+            dashboard.ShadowDecoration.CustomizableEdges = customizableEdges10;
             dashboard.Size = new Size(169, 40);
             dashboard.TabIndex = 0;
             dashboard.Text = "Dashboard";
@@ -323,10 +334,10 @@
             dashboard_panel.Controls.Add(guna2Panel4);
             dashboard_panel.Controls.Add(guna2Panel3);
             dashboard_panel.Controls.Add(guna2Panel2);
-            dashboard_panel.CustomizableEdges = customizableEdges53;
+            dashboard_panel.CustomizableEdges = customizableEdges21;
             dashboard_panel.Location = new Point(199, 11);
             dashboard_panel.Name = "dashboard_panel";
-            dashboard_panel.ShadowDecoration.CustomizableEdges = customizableEdges54;
+            dashboard_panel.ShadowDecoration.CustomizableEdges = customizableEdges22;
             dashboard_panel.Size = new Size(1080, 567);
             dashboard_panel.TabIndex = 1;
             // 
@@ -381,47 +392,47 @@
             // 
             sales_cat.BackColor = Color.FromArgb(250, 241, 214);
             sales_cat.Datasets.AddRange(new Guna.Charts.Interfaces.IGunaDataset[] { lechon_dataset, food_dataset, gunaDoughnutDataset1 });
-            chartFont17.FontName = "Arial";
-            sales_cat.Legend.LabelFont = chartFont17;
+            chartFont1.FontName = "Arial";
+            sales_cat.Legend.LabelFont = chartFont1;
             sales_cat.Legend.Position = Guna.Charts.WinForms.LegendPosition.Bottom;
             sales_cat.Location = new Point(763, 235);
             sales_cat.Name = "sales_cat";
             sales_cat.Size = new Size(275, 305);
             sales_cat.TabIndex = 6;
-            chartFont18.FontName = "Arial";
-            chartFont18.Size = 12;
-            chartFont18.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            sales_cat.Title.Font = chartFont18;
-            chartFont19.FontName = "Arial";
-            sales_cat.Tooltips.BodyFont = chartFont19;
-            chartFont20.FontName = "Arial";
-            chartFont20.Size = 9;
-            chartFont20.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            sales_cat.Tooltips.TitleFont = chartFont20;
+            chartFont2.FontName = "Arial";
+            chartFont2.Size = 12;
+            chartFont2.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            sales_cat.Title.Font = chartFont2;
+            chartFont3.FontName = "Arial";
+            sales_cat.Tooltips.BodyFont = chartFont3;
+            chartFont4.FontName = "Arial";
+            chartFont4.Size = 9;
+            chartFont4.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            sales_cat.Tooltips.TitleFont = chartFont4;
             sales_cat.XAxes.Display = false;
-            sales_cat.XAxes.GridLines = grid7;
-            chartFont21.FontName = "Arial";
-            tick7.Font = chartFont21;
-            sales_cat.XAxes.Ticks = tick7;
+            sales_cat.XAxes.GridLines = grid1;
+            chartFont5.FontName = "Arial";
+            tick1.Font = chartFont5;
+            sales_cat.XAxes.Ticks = tick1;
             sales_cat.YAxes.Display = false;
-            sales_cat.YAxes.GridLines = grid8;
-            chartFont22.FontName = "Arial";
-            tick8.Font = chartFont22;
-            sales_cat.YAxes.Ticks = tick8;
-            sales_cat.ZAxes.GridLines = grid9;
-            chartFont23.FontName = "Arial";
-            pointLabel3.Font = chartFont23;
-            sales_cat.ZAxes.PointLabels = pointLabel3;
-            chartFont24.FontName = "Arial";
-            tick9.Font = chartFont24;
-            sales_cat.ZAxes.Ticks = tick9;
+            sales_cat.YAxes.GridLines = grid2;
+            chartFont6.FontName = "Arial";
+            tick2.Font = chartFont6;
+            sales_cat.YAxes.Ticks = tick2;
+            sales_cat.ZAxes.GridLines = grid3;
+            chartFont7.FontName = "Arial";
+            pointLabel1.Font = chartFont7;
+            sales_cat.ZAxes.PointLabels = pointLabel1;
+            chartFont8.FontName = "Arial";
+            tick3.Font = chartFont8;
+            sales_cat.ZAxes.Ticks = tick3;
             // 
             // lechon_dataset
             // 
-            lPoint4.Y = 12D;
-            lPoint5.Y = 34D;
-            lPoint6.Y = 56D;
-            lechon_dataset.DataPoints.AddRange(new Guna.Charts.WinForms.LPoint[] { lPoint4, lPoint5, lPoint6 });
+            lPoint1.Y = 12D;
+            lPoint2.Y = 34D;
+            lPoint3.Y = 56D;
+            lechon_dataset.DataPoints.AddRange(new Guna.Charts.WinForms.LPoint[] { lPoint1, lPoint2, lPoint3 });
             lechon_dataset.FillColors.AddRange(new Color[] { Color.FromArgb(255, 201, 74), Color.FromArgb(192, 139, 92), Color.FromArgb(121, 84, 88) });
             lechon_dataset.Label = "Lechon";
             lechon_dataset.TargetChart = sales_cat;
@@ -453,11 +464,11 @@
             // 
             guna2Panel5.BorderRadius = 10;
             guna2Panel5.Controls.Add(revenue_chart);
-            guna2Panel5.CustomizableEdges = customizableEdges45;
+            guna2Panel5.CustomizableEdges = customizableEdges13;
             guna2Panel5.FillColor = Color.FromArgb(251, 204, 27);
             guna2Panel5.Location = new Point(35, 235);
             guna2Panel5.Name = "guna2Panel5";
-            guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges46;
+            guna2Panel5.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Panel5.Size = new Size(688, 316);
             guna2Panel5.TabIndex = 5;
             // 
@@ -465,56 +476,56 @@
             // 
             revenue_chart.BackColor = Color.FromArgb(251, 204, 27);
             revenue_chart.Legend.Display = false;
-            chartFont25.FontName = "Arial";
-            revenue_chart.Legend.LabelFont = chartFont25;
+            chartFont9.FontName = "Arial";
+            revenue_chart.Legend.LabelFont = chartFont9;
             revenue_chart.Location = new Point(6, 14);
             revenue_chart.Name = "revenue_chart";
             revenue_chart.Size = new Size(675, 291);
             revenue_chart.TabIndex = 0;
-            chartFont26.FontName = "Arial";
-            chartFont26.Size = 12;
-            chartFont26.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            revenue_chart.Title.Font = chartFont26;
+            chartFont10.FontName = "Arial";
+            chartFont10.Size = 12;
+            chartFont10.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            revenue_chart.Title.Font = chartFont10;
             revenue_chart.Title.ForeColor = Color.FromArgb(49, 54, 63);
-            chartFont27.FontName = "Arial";
-            revenue_chart.Tooltips.BodyFont = chartFont27;
+            chartFont11.FontName = "Arial";
+            revenue_chart.Tooltips.BodyFont = chartFont11;
             revenue_chart.Tooltips.BodyForeColor = Color.FromArgb(21, 21, 21);
-            chartFont28.FontName = "Arial";
-            chartFont28.Size = 9;
-            chartFont28.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            revenue_chart.Tooltips.TitleFont = chartFont28;
-            grid10.Color = Color.FromArgb(49, 54, 63);
-            grid10.ZeroLineColor = Color.FromArgb(49, 54, 63);
-            revenue_chart.XAxes.GridLines = grid10;
-            chartFont29.FontName = "Arial";
-            tick10.Font = chartFont29;
-            tick10.ForeColor = Color.FromArgb(49, 54, 63);
-            revenue_chart.XAxes.Ticks = tick10;
-            grid11.Color = Color.FromArgb(49, 54, 63);
-            grid11.ZeroLineColor = Color.FromArgb(49, 54, 63);
-            revenue_chart.YAxes.GridLines = grid11;
-            chartFont30.FontName = "Arial";
-            tick11.Font = chartFont30;
-            tick11.ForeColor = Color.FromArgb(49, 54, 63);
-            revenue_chart.YAxes.Ticks = tick11;
-            revenue_chart.ZAxes.GridLines = grid12;
-            chartFont31.FontName = "Arial";
-            pointLabel4.Font = chartFont31;
-            revenue_chart.ZAxes.PointLabels = pointLabel4;
-            chartFont32.FontName = "Arial";
-            tick12.Font = chartFont32;
-            revenue_chart.ZAxes.Ticks = tick12;
+            chartFont12.FontName = "Arial";
+            chartFont12.Size = 9;
+            chartFont12.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            revenue_chart.Tooltips.TitleFont = chartFont12;
+            grid4.Color = Color.FromArgb(49, 54, 63);
+            grid4.ZeroLineColor = Color.FromArgb(49, 54, 63);
+            revenue_chart.XAxes.GridLines = grid4;
+            chartFont13.FontName = "Arial";
+            tick4.Font = chartFont13;
+            tick4.ForeColor = Color.FromArgb(49, 54, 63);
+            revenue_chart.XAxes.Ticks = tick4;
+            grid5.Color = Color.FromArgb(49, 54, 63);
+            grid5.ZeroLineColor = Color.FromArgb(49, 54, 63);
+            revenue_chart.YAxes.GridLines = grid5;
+            chartFont14.FontName = "Arial";
+            tick5.Font = chartFont14;
+            tick5.ForeColor = Color.FromArgb(49, 54, 63);
+            revenue_chart.YAxes.Ticks = tick5;
+            revenue_chart.ZAxes.GridLines = grid6;
+            chartFont15.FontName = "Arial";
+            pointLabel2.Font = chartFont15;
+            revenue_chart.ZAxes.PointLabels = pointLabel2;
+            chartFont16.FontName = "Arial";
+            tick6.Font = chartFont16;
+            revenue_chart.ZAxes.Ticks = tick6;
             // 
             // guna2Panel4
             // 
             guna2Panel4.BorderRadius = 10;
             guna2Panel4.Controls.Add(label5);
             guna2Panel4.Controls.Add(label7);
-            guna2Panel4.CustomizableEdges = customizableEdges47;
+            guna2Panel4.CustomizableEdges = customizableEdges15;
             guna2Panel4.FillColor = Color.FromArgb(251, 204, 27);
             guna2Panel4.Location = new Point(523, 39);
             guna2Panel4.Name = "guna2Panel4";
-            guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges48;
+            guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2Panel4.Size = new Size(200, 129);
             guna2Panel4.TabIndex = 4;
             // 
@@ -546,11 +557,11 @@
             guna2Panel3.BorderRadius = 10;
             guna2Panel3.Controls.Add(label4);
             guna2Panel3.Controls.Add(label6);
-            guna2Panel3.CustomizableEdges = customizableEdges49;
+            guna2Panel3.CustomizableEdges = customizableEdges17;
             guna2Panel3.FillColor = Color.FromArgb(251, 204, 27);
             guna2Panel3.Location = new Point(277, 39);
             guna2Panel3.Name = "guna2Panel3";
-            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges50;
+            guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2Panel3.Size = new Size(200, 129);
             guna2Panel3.TabIndex = 3;
             // 
@@ -583,11 +594,11 @@
             guna2Panel2.Controls.Add(label3);
             guna2Panel2.Controls.Add(label2);
             guna2Panel2.Controls.Add(label1);
-            guna2Panel2.CustomizableEdges = customizableEdges51;
+            guna2Panel2.CustomizableEdges = customizableEdges19;
             guna2Panel2.FillColor = Color.FromArgb(251, 204, 27);
             guna2Panel2.Location = new Point(35, 39);
             guna2Panel2.Name = "guna2Panel2";
-            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges52;
+            guna2Panel2.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2Panel2.Size = new Size(200, 129);
             guna2Panel2.TabIndex = 0;
             // 
@@ -645,10 +656,10 @@
             product_panel.Controls.Add(guna2Panel8);
             product_panel.Controls.Add(guna2Panel7);
             product_panel.Controls.Add(guna2Panel6);
-            product_panel.CustomizableEdges = customizableEdges61;
+            product_panel.CustomizableEdges = customizableEdges29;
             product_panel.Location = new Point(199, 11);
             product_panel.Name = "product_panel";
-            product_panel.ShadowDecoration.CustomizableEdges = customizableEdges62;
+            product_panel.ShadowDecoration.CustomizableEdges = customizableEdges30;
             product_panel.ShadowDecoration.Depth = 20;
             product_panel.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             product_panel.ShadowDecoration.Shadow = new Padding(15);
@@ -695,11 +706,11 @@
             // 
             guna2Panel8.BorderRadius = 10;
             guna2Panel8.Controls.Add(food_package_img);
-            guna2Panel8.CustomizableEdges = customizableEdges55;
+            guna2Panel8.CustomizableEdges = customizableEdges23;
             guna2Panel8.FillColor = Color.FromArgb(121, 84, 88);
             guna2Panel8.Location = new Point(736, 80);
             guna2Panel8.Name = "guna2Panel8";
-            guna2Panel8.ShadowDecoration.CustomizableEdges = customizableEdges56;
+            guna2Panel8.ShadowDecoration.CustomizableEdges = customizableEdges24;
             guna2Panel8.Size = new Size(322, 369);
             guna2Panel8.TabIndex = 2;
             // 
@@ -719,11 +730,11 @@
             // 
             guna2Panel7.BorderRadius = 10;
             guna2Panel7.Controls.Add(lechon_belly_img);
-            guna2Panel7.CustomizableEdges = customizableEdges57;
+            guna2Panel7.CustomizableEdges = customizableEdges25;
             guna2Panel7.FillColor = Color.FromArgb(121, 84, 88);
             guna2Panel7.Location = new Point(382, 80);
             guna2Panel7.Name = "guna2Panel7";
-            guna2Panel7.ShadowDecoration.CustomizableEdges = customizableEdges58;
+            guna2Panel7.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2Panel7.Size = new Size(322, 369);
             guna2Panel7.TabIndex = 1;
             // 
@@ -744,12 +755,12 @@
             guna2Panel6.BackColor = Color.Transparent;
             guna2Panel6.BorderRadius = 10;
             guna2Panel6.Controls.Add(whole_lechon_img);
-            guna2Panel6.CustomizableEdges = customizableEdges59;
+            guna2Panel6.CustomizableEdges = customizableEdges27;
             guna2Panel6.FillColor = Color.FromArgb(121, 84, 88);
             guna2Panel6.Location = new Point(28, 80);
             guna2Panel6.Name = "guna2Panel6";
             guna2Panel6.ShadowDecoration.BorderRadius = 10;
-            guna2Panel6.ShadowDecoration.CustomizableEdges = customizableEdges60;
+            guna2Panel6.ShadowDecoration.CustomizableEdges = customizableEdges28;
             guna2Panel6.ShadowDecoration.Shadow = new Padding(0);
             guna2Panel6.Size = new Size(322, 369);
             guna2Panel6.TabIndex = 0;
@@ -768,12 +779,92 @@
             // 
             // sales_panel
             // 
-            sales_panel.CustomizableEdges = customizableEdges63;
+            sales_panel.Controls.Add(label16);
+            sales_panel.Controls.Add(guna2Panel9);
+            sales_panel.CustomizableEdges = customizableEdges33;
             sales_panel.Location = new Point(199, 11);
             sales_panel.Name = "sales_panel";
-            sales_panel.ShadowDecoration.CustomizableEdges = customizableEdges64;
+            sales_panel.ShadowDecoration.CustomizableEdges = customizableEdges34;
             sales_panel.Size = new Size(1080, 567);
             sales_panel.TabIndex = 4;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.BackColor = Color.FromArgb(250, 241, 214);
+            label16.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            label16.ForeColor = Color.FromArgb(121, 84, 88);
+            label16.Location = new Point(445, 30);
+            label16.Name = "label16";
+            label16.Size = new Size(204, 29);
+            label16.TabIndex = 62;
+            label16.Text = "Transactions list";
+            // 
+            // guna2Panel9
+            // 
+            guna2Panel9.BorderRadius = 10;
+            guna2Panel9.Controls.Add(transaction_table);
+            guna2Panel9.CustomizableEdges = customizableEdges31;
+            guna2Panel9.FillColor = Color.FromArgb(251, 204, 27);
+            guna2Panel9.Location = new Point(38, 83);
+            guna2Panel9.Name = "guna2Panel9";
+            guna2Panel9.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            guna2Panel9.Size = new Size(1017, 457);
+            guna2Panel9.TabIndex = 1;
+            // 
+            // transaction_table
+            // 
+            dataGridViewCellStyle1.BackColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle1.ForeColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle1.SelectionForeColor = Color.FromArgb(251, 204, 27);
+            transaction_table.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            transaction_table.BackgroundColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle2.SelectionBackColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle2.SelectionForeColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            transaction_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            transaction_table.ColumnHeadersHeight = 44;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            transaction_table.DefaultCellStyle = dataGridViewCellStyle3;
+            transaction_table.GridColor = Color.FromArgb(121, 84, 88);
+            transaction_table.Location = new Point(23, 17);
+            transaction_table.Name = "transaction_table";
+            transaction_table.RowHeadersVisible = false;
+            transaction_table.RowTemplate.Height = 25;
+            transaction_table.Size = new Size(977, 482);
+            transaction_table.TabIndex = 0;
+            transaction_table.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            transaction_table.ThemeStyle.AlternatingRowsStyle.Font = null;
+            transaction_table.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            transaction_table.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            transaction_table.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            transaction_table.ThemeStyle.BackColor = Color.FromArgb(251, 204, 27);
+            transaction_table.ThemeStyle.GridColor = Color.FromArgb(121, 84, 88);
+            transaction_table.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            transaction_table.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            transaction_table.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            transaction_table.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            transaction_table.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            transaction_table.ThemeStyle.HeaderStyle.Height = 44;
+            transaction_table.ThemeStyle.ReadOnly = false;
+            transaction_table.ThemeStyle.RowsStyle.BackColor = Color.White;
+            transaction_table.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            transaction_table.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            transaction_table.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            transaction_table.ThemeStyle.RowsStyle.Height = 25;
+            transaction_table.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            transaction_table.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
             // Form1
             // 
@@ -808,6 +899,10 @@
             ((System.ComponentModel.ISupportInitialize)lechon_belly_img).EndInit();
             guna2Panel6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)whole_lechon_img).EndInit();
+            sales_panel.ResumeLayout(false);
+            sales_panel.PerformLayout();
+            guna2Panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)transaction_table).EndInit();
             ResumeLayout(false);
         }
 
@@ -854,5 +949,8 @@
         private Label label15;
         private Label label14;
         private Guna.UI2.WinForms.Guna2Panel sales_panel;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
+        private Guna.UI2.WinForms.Guna2DataGridView transaction_table;
+        private Label label16;
     }
 }
