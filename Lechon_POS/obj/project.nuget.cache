@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "wU8qJ/jxwObPX6PPPzu+HFjq+jcstwimB8uqQwAa7lZctt3vZomN9DJqgkb4ABVDuMwbE6ESP4rfnKdI47qCyw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Lechon_POS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Fzkn4\\.nuget\\packages\\guna.charts.winforms\\1.0.9\\guna.charts.winforms.1.0.9.nupkg.sha512",
+    "C:\\Users\\Fzkn4\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\Fzkn4\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Fzkn4\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
