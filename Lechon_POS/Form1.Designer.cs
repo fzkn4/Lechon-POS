@@ -92,13 +92,15 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox1 = new PictureBox();
             logout = new Guna.UI2.WinForms.Guna2Button();
@@ -122,13 +124,12 @@
             label5 = new Label();
             label7 = new Label();
             guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            label4 = new Label();
+            display_total_orders = new Label();
             label6 = new Label();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            label3 = new Label();
+            display_total_sales = new Label();
             label2 = new Label();
             label1 = new Label();
-            revenue_dataset = new Guna.Charts.WinForms.GunaLineDataset();
             product_panel = new Guna.UI2.WinForms.Guna2Panel();
             label15 = new Label();
             label13 = new Label();
@@ -139,10 +140,12 @@
             lechon_belly_img = new PictureBox();
             guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             whole_lechon_img = new PictureBox();
+            revenue_dataset = new Guna.Charts.WinForms.GunaLineDataset();
             sales_panel = new Guna.UI2.WinForms.Guna2Panel();
             label16 = new Label();
             guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             transaction_table = new Guna.UI2.WinForms.Guna2DataGridView();
+            confirm_transaction = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             dashboard_panel.SuspendLayout();
@@ -555,7 +558,7 @@
             // guna2Panel3
             // 
             guna2Panel3.BorderRadius = 10;
-            guna2Panel3.Controls.Add(label4);
+            guna2Panel3.Controls.Add(display_total_orders);
             guna2Panel3.Controls.Add(label6);
             guna2Panel3.CustomizableEdges = customizableEdges17;
             guna2Panel3.FillColor = Color.FromArgb(251, 204, 27);
@@ -565,16 +568,16 @@
             guna2Panel3.Size = new Size(200, 129);
             guna2Panel3.TabIndex = 3;
             // 
-            // label4
+            // display_total_orders
             // 
-            label4.BackColor = Color.FromArgb(251, 204, 27);
-            label4.Font = new Font("Microsoft New Tai Lue", 36F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.ForeColor = Color.FromArgb(134, 43, 13);
-            label4.Location = new Point(15, 58);
-            label4.Name = "label4";
-            label4.Size = new Size(185, 55);
-            label4.TabIndex = 2;
-            label4.Text = "890";
+            display_total_orders.BackColor = Color.FromArgb(251, 204, 27);
+            display_total_orders.Font = new Font("Microsoft New Tai Lue", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            display_total_orders.ForeColor = Color.FromArgb(134, 43, 13);
+            display_total_orders.Location = new Point(15, 58);
+            display_total_orders.Name = "display_total_orders";
+            display_total_orders.Size = new Size(185, 55);
+            display_total_orders.TabIndex = 2;
+            display_total_orders.Text = "890";
             // 
             // label6
             // 
@@ -591,7 +594,7 @@
             // guna2Panel2
             // 
             guna2Panel2.BorderRadius = 10;
-            guna2Panel2.Controls.Add(label3);
+            guna2Panel2.Controls.Add(display_total_sales);
             guna2Panel2.Controls.Add(label2);
             guna2Panel2.Controls.Add(label1);
             guna2Panel2.CustomizableEdges = customizableEdges19;
@@ -602,16 +605,16 @@
             guna2Panel2.Size = new Size(200, 129);
             guna2Panel2.TabIndex = 0;
             // 
-            // label3
+            // display_total_sales
             // 
-            label3.BackColor = Color.FromArgb(251, 204, 27);
-            label3.Font = new Font("Microsoft New Tai Lue", 36F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.FromArgb(134, 43, 13);
-            label3.Location = new Point(40, 58);
-            label3.Name = "label3";
-            label3.Size = new Size(165, 55);
-            label3.TabIndex = 2;
-            label3.Text = "890";
+            display_total_sales.BackColor = Color.FromArgb(251, 204, 27);
+            display_total_sales.Font = new Font("Microsoft New Tai Lue", 36F, FontStyle.Bold, GraphicsUnit.Point);
+            display_total_sales.ForeColor = Color.FromArgb(134, 43, 13);
+            display_total_sales.Location = new Point(40, 58);
+            display_total_sales.Name = "display_total_sales";
+            display_total_sales.Size = new Size(165, 55);
+            display_total_sales.TabIndex = 2;
+            display_total_sales.Text = "890";
             // 
             // label2
             // 
@@ -636,17 +639,6 @@
             label1.Size = new Size(79, 15);
             label1.TabIndex = 0;
             label1.Text = "Total Sales";
-            // 
-            // revenue_dataset
-            // 
-            revenue_dataset.BorderColor = Color.FromArgb(49, 54, 63);
-            revenue_dataset.BorderWidth = 2;
-            revenue_dataset.FillColor = Color.FromArgb(21, 21, 21);
-            revenue_dataset.Label = "Revenue";
-            revenue_dataset.PointBorderColors.AddRange(new Color[] { Color.FromArgb(49, 54, 63) });
-            revenue_dataset.PointBorderWidth = 0;
-            revenue_dataset.PointFillColors.AddRange(new Color[] { Color.FromArgb(34, 40, 49) });
-            revenue_dataset.PointRadius = 3;
             // 
             // product_panel
             // 
@@ -777,14 +769,26 @@
             whole_lechon_img.TabStop = false;
             whole_lechon_img.Click += whole_lechon_img_Click;
             // 
+            // revenue_dataset
+            // 
+            revenue_dataset.BorderColor = Color.FromArgb(49, 54, 63);
+            revenue_dataset.BorderWidth = 2;
+            revenue_dataset.FillColor = Color.FromArgb(21, 21, 21);
+            revenue_dataset.Label = "Revenue";
+            revenue_dataset.PointBorderColors.AddRange(new Color[] { Color.FromArgb(49, 54, 63) });
+            revenue_dataset.PointBorderWidth = 0;
+            revenue_dataset.PointFillColors.AddRange(new Color[] { Color.FromArgb(34, 40, 49) });
+            revenue_dataset.PointRadius = 3;
+            // 
             // sales_panel
             // 
+            sales_panel.Controls.Add(confirm_transaction);
             sales_panel.Controls.Add(label16);
             sales_panel.Controls.Add(guna2Panel9);
-            sales_panel.CustomizableEdges = customizableEdges33;
+            sales_panel.CustomizableEdges = customizableEdges35;
             sales_panel.Location = new Point(199, 11);
             sales_panel.Name = "sales_panel";
-            sales_panel.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            sales_panel.ShadowDecoration.CustomizableEdges = customizableEdges36;
             sales_panel.Size = new Size(1080, 567);
             sales_panel.TabIndex = 4;
             // 
@@ -804,16 +808,17 @@
             // 
             guna2Panel9.BorderRadius = 10;
             guna2Panel9.Controls.Add(transaction_table);
-            guna2Panel9.CustomizableEdges = customizableEdges31;
+            guna2Panel9.CustomizableEdges = customizableEdges33;
             guna2Panel9.FillColor = Color.FromArgb(251, 204, 27);
             guna2Panel9.Location = new Point(38, 83);
             guna2Panel9.Name = "guna2Panel9";
-            guna2Panel9.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            guna2Panel9.Size = new Size(1017, 457);
+            guna2Panel9.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            guna2Panel9.Size = new Size(1017, 412);
             guna2Panel9.TabIndex = 1;
             // 
             // transaction_table
             // 
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = Color.FromArgb(251, 204, 27);
             dataGridViewCellStyle1.ForeColor = Color.FromArgb(121, 84, 88);
             dataGridViewCellStyle1.SelectionBackColor = Color.FromArgb(121, 84, 88);
@@ -842,7 +847,7 @@
             transaction_table.Name = "transaction_table";
             transaction_table.RowHeadersVisible = false;
             transaction_table.RowTemplate.Height = 25;
-            transaction_table.Size = new Size(977, 482);
+            transaction_table.Size = new Size(977, 363);
             transaction_table.TabIndex = 0;
             transaction_table.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             transaction_table.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -865,6 +870,32 @@
             transaction_table.ThemeStyle.RowsStyle.Height = 25;
             transaction_table.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             transaction_table.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            transaction_table.CellClick += transaction_table_CellClick;
+            transaction_table.DataBindingComplete += transaction_table_DataBindingComplete;
+            // 
+            // confirm_transaction
+            // 
+            confirm_transaction.Animated = true;
+            confirm_transaction.BorderColor = Color.FromArgb(251, 204, 27);
+            confirm_transaction.BorderRadius = 10;
+            confirm_transaction.BorderThickness = 1;
+            confirm_transaction.CustomizableEdges = customizableEdges31;
+            confirm_transaction.DisabledState.BorderColor = Color.DarkGray;
+            confirm_transaction.DisabledState.CustomBorderColor = Color.DarkGray;
+            confirm_transaction.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            confirm_transaction.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            confirm_transaction.FillColor = Color.FromArgb(251, 204, 27);
+            confirm_transaction.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            confirm_transaction.ForeColor = Color.FromArgb(121, 84, 88);
+            confirm_transaction.HoverState.BorderColor = Color.FromArgb(251, 204, 27);
+            confirm_transaction.HoverState.FillColor = Color.FromArgb(250, 241, 214);
+            confirm_transaction.Location = new Point(930, 512);
+            confirm_transaction.Name = "confirm_transaction";
+            confirm_transaction.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            confirm_transaction.Size = new Size(128, 39);
+            confirm_transaction.TabIndex = 63;
+            confirm_transaction.Text = "Delete";
+            confirm_transaction.Click += confirm_transaction_Click;
             // 
             // Form1
             // 
@@ -919,9 +950,9 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Label label2;
         private Label label1;
-        private Label label3;
+        private Label display_total_sales;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Label label4;
+        private Label display_total_orders;
         private Label label6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Label label5;
@@ -952,5 +983,6 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
         private Guna.UI2.WinForms.Guna2DataGridView transaction_table;
         private Label label16;
+        private Guna.UI2.WinForms.Guna2Button confirm_transaction;
     }
 }
