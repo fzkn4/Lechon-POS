@@ -77,6 +77,9 @@ namespace Lechon_POS
                 payment.SelectionLength = 0;
 
                 change.Text = format_number((Convert.ToDouble(payment.Text) - Convert.ToDouble(total_amount.Text)).ToString());
+            }else
+            {
+                change.Text = "0.00";
             }
         }
 

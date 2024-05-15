@@ -1,4 +1,5 @@
-﻿using MySqlConnector;
+﻿using Guna.UI2.WinForms;
+using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -50,7 +51,7 @@ namespace Lechon_POS
             {
                 cmd = conn1.CreateCommand();
                 cmd.CommandText = "Insert INTO transaction set customerName=@customer_name, totalAmount=@total_amount, transactionDate=@transaction_date, productName=@product_name, paymentAmount=@payment_amount, paymentChange=@change;";
-                cmd.Parameters.Add("@customer_name", MySqlDbType.VarChar, 255).Value =  first_letter_capital(customer_name.Text);
+                cmd.Parameters.Add("@customer_name", MySqlDbType.VarChar, 255).Value = first_letter_capital(customer_name.Text);
                 cmd.Parameters.Add("@total_amount", MySqlDbType.Double).Value = Convert.ToDouble(total_amount.Text);
                 cmd.Parameters.Add("@transaction_date", MySqlDbType.Date).Value = DateTime.Now;
                 cmd.Parameters.Add("@product_name", MySqlDbType.VarChar, 255).Value = "Whole Lechon";
@@ -100,38 +101,19 @@ namespace Lechon_POS
 
             if (payment.Text.Length > 0)
             {
-                // Remove any non-numeric characters and commas from the input
-                string input = Regex.Replace(payment.Text, "[^0-9]", "");
+               change.Text = format_number((Convert.ToDouble(payment.Text) - Convert.ToDouble(total_amount.Text)).ToString());
 
-                // Format the input by inserting commas every 3 digits from the right
-                string formattedInput = "";
-                for (int i = input.Length - 1, j = 1; i >= 0; i--, j++)
-                {
-                    formattedInput = input[i] + formattedInput;
-                    if (j % 3 == 0 && i != 0)
-                    {
-                        formattedInput = "," + formattedInput;
-                    }
-                }
-
-                payment.Text = formattedInput;
-
-                // Set the caret position to the end of the TextBox
-                payment.SelectionStart = payment.Text.Length;
-                payment.SelectionLength = 0;
-
-                if (Convert.ToInt32(payment.Text) == 0)
-                {
-                    change.Text = format_number((Convert.ToDouble(payment.Text) - Convert.ToDouble(total_amount.Text)).ToString());
-                }
+            }
+            else
+            {
+                change.Text = "0.00";
             }
 
         }
 
         public static string format_number(string number)
         {
-            double value = double.Parse(number);
-            return value.ToString("N2");
+            return number;
         }
 
         private void confirm_transaction_Click(object sender, EventArgs e)
@@ -149,6 +131,20 @@ namespace Lechon_POS
         private string first_letter_capital(string input)
         {
             return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(input.ToLower());
+        }
+
+        private void kilo_amount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if ((e.KeyChar == '.') && ((sender as Guna2TextBox).Text.IndexOf('.') > -1))
+            {
+                e.Handled = true;
+            }
         }
     }
 }

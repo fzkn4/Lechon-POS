@@ -316,6 +316,7 @@
             kilo_amount.TabIndex = 1;
             kilo_amount.TextAlign = HorizontalAlignment.Right;
             kilo_amount.TextChanged += kilo_amount_TextChanged;
+            kilo_amount.KeyPress += kilo_amount_KeyPress;
             // 
             // label2
             // 
