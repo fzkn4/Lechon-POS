@@ -679,6 +679,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(change);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "lechon_belly_transaction";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Ordering Lechon Belly";

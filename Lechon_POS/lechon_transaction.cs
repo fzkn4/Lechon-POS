@@ -50,7 +50,7 @@ namespace Lechon_POS
             {
                 cmd = conn1.CreateCommand();
                 cmd.CommandText = "Insert INTO transaction set customerName=@customer_name, totalAmount=@total_amount, transactionDate=@transaction_date, productName=@product_name, paymentAmount=@payment_amount, paymentChange=@change;";
-                cmd.Parameters.Add("@customer_name", MySqlDbType.VarChar, 255).Value = customer_name.Text;
+                cmd.Parameters.Add("@customer_name", MySqlDbType.VarChar, 255).Value =  first_letter_capital(customer_name.Text);
                 cmd.Parameters.Add("@total_amount", MySqlDbType.Double).Value = Convert.ToDouble(total_amount.Text);
                 cmd.Parameters.Add("@transaction_date", MySqlDbType.Date).Value = DateTime.Now;
                 cmd.Parameters.Add("@product_name", MySqlDbType.VarChar, 255).Value = "Whole Lechon";
@@ -120,7 +120,10 @@ namespace Lechon_POS
                 payment.SelectionStart = payment.Text.Length;
                 payment.SelectionLength = 0;
 
-                change.Text = format_number((Convert.ToDouble(payment.Text) - Convert.ToDouble(total_amount.Text)).ToString());
+                if (Convert.ToInt32(payment.Text) == 0)
+                {
+                    change.Text = format_number((Convert.ToDouble(payment.Text) - Convert.ToDouble(total_amount.Text)).ToString());
+                }
             }
 
         }
@@ -141,6 +144,11 @@ namespace Lechon_POS
             {
                 record_transaction();
             }
+        }
+
+        private string first_letter_capital(string input)
+        {
+            return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(input.ToLower());
         }
     }
 }

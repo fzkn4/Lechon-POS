@@ -513,9 +513,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(33, 77);
+            pictureBox1.Location = new Point(-14, 85);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(239, 252);
+            pictureBox1.Size = new Size(328, 293);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 60;
             pictureBox1.TabStop = false;
@@ -752,9 +752,10 @@
             Controls.Add(confirm_transaction);
             Controls.Add(clear);
             Controls.Add(label13);
-            Controls.Add(pictureBox1);
             Controls.Add(change);
+            Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "food_package_transaction";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "food_package_transaction";

@@ -45,3 +45,5 @@ C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-w
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\ref\Lechon_POS.dll
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\Lechon_POS.lechon_belly_transaction.resources
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\Lechon_POS.food_package_transaction.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\Lechon_POS.login.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\Lechon_POS.register.resources

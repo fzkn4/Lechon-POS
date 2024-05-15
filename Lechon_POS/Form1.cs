@@ -19,7 +19,28 @@ namespace Lechon_POS
             dashboard_panel.Visible = true;
             updateTable();
             get_total_sales();
+            user_name.Text = login.name;
+            user_position.Text = login.user_position;
         }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            base.OnFormClosing(e);
+
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+
+            // Confirm user wants to close
+            switch (MessageBox.Show(this, "Are you sure you want to close?", "Closing", MessageBoxButtons.YesNo))
+            {
+                case DialogResult.No:
+                    e.Cancel = true;
+                    break;
+                default:
+                    Environment.Exit(0);
+                    break;
+            }
+        }
+
 
         private void selected_button(Guna2Button selected, Guna2Button button2, Guna2Button button3, Guna2Button button4)
         {
@@ -56,6 +77,7 @@ namespace Lechon_POS
 
         private void sales_Click(object sender, EventArgs e)
         {
+            hide_panels();
             selected_button(sales, customer, products, dashboard);
             sales_panel.Visible = true;
             transaction_table.ClearSelection();
@@ -237,6 +259,18 @@ namespace Lechon_POS
             delete_transaction();
             updateTable();
             get_total_sales();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            login window = new login();
+            window.Show();
         }
     }
 }
