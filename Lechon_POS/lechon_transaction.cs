@@ -58,6 +58,8 @@ namespace Lechon_POS
                 cmd.Parameters.Add("@payment_amount", MySqlDbType.Double).Value = Convert.ToDouble(payment.Text);
                 cmd.Parameters.Add("@change", MySqlDbType.Double).Value = Convert.ToDouble(change.Text);
 
+                addCustomer();
+
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Transaction was successful.");
 
@@ -145,6 +147,30 @@ namespace Lechon_POS
             {
                 e.Handled = true;
             }
+        }
+
+        private void addCustomer()
+        {
+            MySqlConnection conn1 = new MySqlConnection(con);
+            MySqlCommand cmd;
+            conn1.Open();
+            try
+            {
+                cmd = conn1.CreateCommand();
+                cmd.CommandText = "INSERT INTO customers (customerName, numberOfOrders, totalOrderAmount, lastPurchaseDate) VALUES (@customerName, @numberOfOrders, @totalOrderAmount, @lastPurchaseDate) ON DUPLICATE KEY UPDATE numberOfOrders = numberOfOrders+@numberOfOrders, totalOrderAmount = totalOrderAmount+@totalOrderAmount, lastPurchaseDate = @lastPurchaseDate";
+                cmd.Parameters.Add("@customerName", MySqlDbType.VarChar, 255).Value = first_letter_capital(customer_name.Text);
+                cmd.Parameters.Add("@numberOfOrders", MySqlDbType.Int32).Value = 1;
+                cmd.Parameters.Add("@totalOrderAmount", MySqlDbType.Double).Value = Convert.ToInt32(total_amount.Text);
+                cmd.Parameters.Add("@lastPurchaseDate", MySqlDbType.DateTime).Value = DateTime.Now;
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Transaction was successful.");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            conn1.Close();
         }
     }
 }

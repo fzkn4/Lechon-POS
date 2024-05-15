@@ -99,6 +99,15 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox1 = new PictureBox();
             logout = new Guna.UI2.WinForms.Guna2Button();
@@ -142,6 +151,10 @@
             guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             transaction_table = new Guna.UI2.WinForms.Guna2DataGridView();
             revenue_dataset = new Guna.Charts.WinForms.GunaLineDataset();
+            customer_panel = new Guna.UI2.WinForms.Guna2Panel();
+            edit = new Guna.UI2.WinForms.Guna2Button();
+            guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            customer_table = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             dashboard_panel.SuspendLayout();
@@ -158,6 +171,9 @@
             sales_panel.SuspendLayout();
             guna2Panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)transaction_table).BeginInit();
+            customer_panel.SuspendLayout();
+            guna2Panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)customer_table).BeginInit();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -874,12 +890,121 @@
             revenue_dataset.PointFillColors.AddRange(new Color[] { Color.FromArgb(34, 40, 49) });
             revenue_dataset.PointRadius = 3;
             // 
+            // customer_panel
+            // 
+            customer_panel.Controls.Add(edit);
+            customer_panel.Controls.Add(guna2Panel4);
+            customer_panel.CustomizableEdges = customizableEdges39;
+            customer_panel.Location = new Point(199, 10);
+            customer_panel.Name = "customer_panel";
+            customer_panel.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            customer_panel.Size = new Size(1080, 618);
+            customer_panel.TabIndex = 64;
+            // 
+            // edit
+            // 
+            edit.Animated = true;
+            edit.BorderColor = Color.FromArgb(251, 204, 27);
+            edit.BorderRadius = 10;
+            edit.BorderThickness = 1;
+            edit.CustomizableEdges = customizableEdges35;
+            edit.DisabledState.BorderColor = Color.DarkGray;
+            edit.DisabledState.CustomBorderColor = Color.DarkGray;
+            edit.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            edit.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            edit.FillColor = Color.FromArgb(251, 204, 27);
+            edit.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            edit.ForeColor = Color.FromArgb(121, 84, 88);
+            edit.HoverState.BorderColor = Color.FromArgb(251, 204, 27);
+            edit.HoverState.FillColor = Color.FromArgb(250, 241, 214);
+            edit.Location = new Point(930, 563);
+            edit.Name = "edit";
+            edit.ShadowDecoration.CustomizableEdges = customizableEdges36;
+            edit.Size = new Size(128, 39);
+            edit.TabIndex = 5;
+            edit.Text = "Edit";
+            edit.Click += edit_Click;
+            // 
+            // guna2Panel4
+            // 
+            guna2Panel4.BorderRadius = 10;
+            guna2Panel4.Controls.Add(customer_table);
+            guna2Panel4.CustomizableEdges = customizableEdges37;
+            guna2Panel4.FillColor = Color.FromArgb(251, 204, 27);
+            guna2Panel4.Location = new Point(38, 39);
+            guna2Panel4.Name = "guna2Panel4";
+            guna2Panel4.ShadowDecoration.CustomizableEdges = customizableEdges38;
+            guna2Panel4.Size = new Size(1017, 512);
+            guna2Panel4.TabIndex = 2;
+            // 
+            // customer_table
+            // 
+            customer_table.AllowUserToOrderColumns = true;
+            customer_table.AllowUserToResizeColumns = false;
+            customer_table.AllowUserToResizeRows = false;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle4.ForeColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle4.SelectionBackColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle4.SelectionForeColor = Color.FromArgb(251, 204, 27);
+            customer_table.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            customer_table.BackgroundColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle5.Font = new Font("Microsoft New Tai Lue", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle5.SelectionBackColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle5.SelectionForeColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            customer_table.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            customer_table.ColumnHeadersHeight = 44;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle6.BackColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle6.Font = new Font("Microsoft New Tai Lue", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(121, 84, 88);
+            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(251, 204, 27);
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            customer_table.DefaultCellStyle = dataGridViewCellStyle6;
+            customer_table.GridColor = Color.FromArgb(121, 84, 88);
+            customer_table.Location = new Point(23, 17);
+            customer_table.Name = "customer_table";
+            customer_table.ReadOnly = true;
+            customer_table.RowHeadersVisible = false;
+            customer_table.RowTemplate.Height = 35;
+            customer_table.Size = new Size(977, 484);
+            customer_table.TabIndex = 0;
+            customer_table.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            customer_table.ThemeStyle.AlternatingRowsStyle.Font = null;
+            customer_table.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            customer_table.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            customer_table.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            customer_table.ThemeStyle.BackColor = Color.FromArgb(251, 204, 27);
+            customer_table.ThemeStyle.GridColor = Color.FromArgb(121, 84, 88);
+            customer_table.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            customer_table.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            customer_table.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            customer_table.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            customer_table.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            customer_table.ThemeStyle.HeaderStyle.Height = 44;
+            customer_table.ThemeStyle.ReadOnly = true;
+            customer_table.ThemeStyle.RowsStyle.BackColor = Color.White;
+            customer_table.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            customer_table.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            customer_table.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            customer_table.ThemeStyle.RowsStyle.Height = 35;
+            customer_table.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            customer_table.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            customer_table.CellClick += customer_table_CellClick;
+            customer_table.DataBindingComplete += customer_table_DataBindingComplete;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(250, 241, 214);
             ClientSize = new Size(1291, 641);
+            Controls.Add(customer_panel);
             Controls.Add(sales_panel);
             Controls.Add(guna2Panel1);
             Controls.Add(product_panel);
@@ -909,6 +1034,9 @@
             sales_panel.ResumeLayout(false);
             guna2Panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)transaction_table).EndInit();
+            customer_panel.ResumeLayout(false);
+            guna2Panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)customer_table).EndInit();
             ResumeLayout(false);
         }
 
@@ -957,5 +1085,9 @@
         private Guna.UI2.WinForms.Guna2Button confirm_transaction;
         private Label user_name;
         private Label user_position;
+        private Guna.UI2.WinForms.Guna2Panel customer_panel;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
+        private Guna.UI2.WinForms.Guna2DataGridView customer_table;
+        private Guna.UI2.WinForms.Guna2Button edit;
     }
 }

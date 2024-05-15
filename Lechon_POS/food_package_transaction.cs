@@ -25,8 +25,7 @@ namespace Lechon_POS
 
         private string format_number(string number)
         {
-            double value = double.Parse(number);
-            return value.ToString("N2");
+            return number;
         }
         double total = 0;
         int option1 = 0;
@@ -94,6 +93,7 @@ namespace Lechon_POS
                 cmd.Parameters.Add("@payment_amount", MySqlDbType.Double).Value = Convert.ToDouble(payment.Text);
                 cmd.Parameters.Add("@change", MySqlDbType.Double).Value = Convert.ToDouble(change.Text);
 
+                addCustomer();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Transaction was successful.");
 
@@ -110,26 +110,6 @@ namespace Lechon_POS
         {
             if (payment.Text.Length > 0)
             {
-                // Remove any non-numeric characters and commas from the input
-                string input = Regex.Replace(payment.Text, "[^0-9]", "");
-
-                // Format the input by inserting commas every 3 digits from the right
-                string formattedInput = "";
-                for (int i = input.Length - 1, j = 1; i >= 0; i--, j++)
-                {
-                    formattedInput = input[i] + formattedInput;
-                    if (j % 3 == 0 && i != 0)
-                    {
-                        formattedInput = "," + formattedInput;
-                    }
-                }
-
-                payment.Text = formattedInput;
-
-                // Set the caret position to the end of the TextBox
-                payment.SelectionStart = payment.Text.Length;
-                payment.SelectionLength = 0;
-
                 change.Text = format_number((Convert.ToDouble(payment.Text) - Convert.ToDouble(total_amount.Text)).ToString());
             }
             else
@@ -153,6 +133,30 @@ namespace Lechon_POS
         private string first_letter_capital(string input)
         {
             return CultureInfo.CurrentCulture.TextInfo.ToTitleCase(input.ToLower());
+        }
+
+        private void addCustomer()
+        {
+            MySqlConnection conn1 = new MySqlConnection(con);
+            MySqlCommand cmd;
+            conn1.Open();
+            try
+            {
+                cmd = conn1.CreateCommand();
+                cmd.CommandText = "INSERT INTO customers (customerName, numberOfOrders, totalOrderAmount, lastPurchaseDate) VALUES (@customerName, @numberOfOrders, @totalOrderAmount, @lastPurchaseDate) ON DUPLICATE KEY UPDATE numberOfOrders = numberOfOrders+@numberOfOrders, totalOrderAmount = totalOrderAmount+@totalOrderAmount, lastPurchaseDate = @lastPurchaseDate";
+                cmd.Parameters.Add("@customerName", MySqlDbType.VarChar, 255).Value = first_letter_capital(customer_name.Text);
+                cmd.Parameters.Add("@numberOfOrders", MySqlDbType.Int32).Value = 1;
+                cmd.Parameters.Add("@totalOrderAmount", MySqlDbType.Double).Value = Convert.ToInt32(total_amount.Text);
+                cmd.Parameters.Add("@lastPurchaseDate", MySqlDbType.DateTime).Value = DateTime.Now;
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Transaction was successful.");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            conn1.Close();
         }
     }
 }

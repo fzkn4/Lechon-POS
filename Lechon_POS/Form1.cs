@@ -55,6 +55,7 @@ namespace Lechon_POS
             dashboard_panel.Visible = false;
             product_panel.Visible = false;
             sales_panel.Visible = false;
+            customer_panel.Visible = false;
         }
 
         private void dashboard_Click(object sender, EventArgs e)
@@ -86,7 +87,8 @@ namespace Lechon_POS
         private void customer_Click(object sender, EventArgs e)
         {
             selected_button(customer, sales, products, dashboard);
-
+            hide_panels();
+            customer_panel.Visible = true;
         }
 
         private void display_revenue_chart(Guna.Charts.WinForms.GunaChart chart)
@@ -154,6 +156,26 @@ namespace Lechon_POS
                 DataSet ds = new DataSet();
                 da.Fill(ds, "transaction");
                 transaction_table.DataSource = ds.Tables["transaction"].DefaultView;
+                con1.Close();
+
+                update_customer_table();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
+        }
+        private void update_customer_table()
+        {
+            try
+            {
+                MySqlConnection con1 = new MySqlConnection(con);
+                MySqlCommand cmd = new MySqlCommand("SELECT customerName as 'Customer', numberOfOrders as 'Number of Orders' , totalOrderAmount as 'Total Purchases' , lastPurchaseDate as 'Last Purchase' from customers", con1);
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                con1.Open();
+                DataSet ds = new DataSet();
+                da.Fill(ds, "transaction");
+                customer_table.DataSource = ds.Tables["transaction"].DefaultView;
                 con1.Close();
             }
             catch (Exception e)
@@ -271,6 +293,34 @@ namespace Lechon_POS
             this.Hide();
             login window = new login();
             window.Show();
+        }
+
+        private void customer_table_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+            customer_table.Rows[0].Selected = false;
+
+        }
+        public static string customer_name = "";
+        private void customer_table_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (customer_table.Rows[e.RowIndex].Cells[e.ColumnIndex].Value != null)
+            {
+                try
+                {
+
+                    customer_name = (customer_table.Rows[e.RowIndex].Cells[0].Value.ToString());
+                }
+                catch (Exception ex)
+                {
+                }
+            }
+        }
+
+        private void edit_Click(object sender, EventArgs e)
+        {
+           EditCustomer window = new EditCustomer();
+            window.ShowDialog();
+
         }
     }
 }
