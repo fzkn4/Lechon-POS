@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lechon_POS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3705ed6675bc4d0f7305179e67cb85cf4289c20f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fe5a75c5fdcb30d2d1f9104f97298be10a3adf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lechon_POS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lechon_POS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

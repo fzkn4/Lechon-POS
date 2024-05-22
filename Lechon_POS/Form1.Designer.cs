@@ -92,8 +92,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
@@ -108,6 +106,8 @@
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             pictureBox1 = new PictureBox();
             logout = new Guna.UI2.WinForms.Guna2Button();
@@ -147,7 +147,6 @@
             guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             whole_lechon_img = new PictureBox();
             sales_panel = new Guna.UI2.WinForms.Guna2Panel();
-            confirm_transaction = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             transaction_table = new Guna.UI2.WinForms.Guna2DataGridView();
             revenue_dataset = new Guna.Charts.WinForms.GunaLineDataset();
@@ -155,6 +154,7 @@
             edit = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             customer_table = new Guna.UI2.WinForms.Guna2DataGridView();
+            confirm_transaction = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             dashboard_panel.SuspendLayout();
@@ -782,30 +782,6 @@
             sales_panel.Size = new Size(1080, 618);
             sales_panel.TabIndex = 4;
             // 
-            // confirm_transaction
-            // 
-            confirm_transaction.Animated = true;
-            confirm_transaction.BorderColor = Color.FromArgb(251, 204, 27);
-            confirm_transaction.BorderRadius = 10;
-            confirm_transaction.BorderThickness = 1;
-            confirm_transaction.CustomizableEdges = customizableEdges29;
-            confirm_transaction.DisabledState.BorderColor = Color.DarkGray;
-            confirm_transaction.DisabledState.CustomBorderColor = Color.DarkGray;
-            confirm_transaction.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            confirm_transaction.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            confirm_transaction.FillColor = Color.FromArgb(251, 204, 27);
-            confirm_transaction.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            confirm_transaction.ForeColor = Color.FromArgb(121, 84, 88);
-            confirm_transaction.HoverState.BorderColor = Color.FromArgb(251, 204, 27);
-            confirm_transaction.HoverState.FillColor = Color.FromArgb(250, 241, 214);
-            confirm_transaction.Location = new Point(930, 563);
-            confirm_transaction.Name = "confirm_transaction";
-            confirm_transaction.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            confirm_transaction.Size = new Size(128, 39);
-            confirm_transaction.TabIndex = 63;
-            confirm_transaction.Text = "Delete";
-            confirm_transaction.Click += confirm_transaction_Click;
-            // 
             // guna2Panel9
             // 
             guna2Panel9.BorderRadius = 10;
@@ -998,6 +974,30 @@
             customer_table.CellClick += customer_table_CellClick;
             customer_table.DataBindingComplete += customer_table_DataBindingComplete;
             // 
+            // confirm_transaction
+            // 
+            confirm_transaction.Animated = true;
+            confirm_transaction.BorderColor = Color.FromArgb(251, 204, 27);
+            confirm_transaction.BorderRadius = 10;
+            confirm_transaction.BorderThickness = 1;
+            confirm_transaction.CustomizableEdges = customizableEdges29;
+            confirm_transaction.DisabledState.BorderColor = Color.DarkGray;
+            confirm_transaction.DisabledState.CustomBorderColor = Color.DarkGray;
+            confirm_transaction.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            confirm_transaction.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            confirm_transaction.FillColor = Color.FromArgb(251, 204, 27);
+            confirm_transaction.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            confirm_transaction.ForeColor = Color.FromArgb(121, 84, 88);
+            confirm_transaction.HoverState.BorderColor = Color.FromArgb(251, 204, 27);
+            confirm_transaction.HoverState.FillColor = Color.FromArgb(250, 241, 214);
+            confirm_transaction.Location = new Point(930, 563);
+            confirm_transaction.Name = "confirm_transaction";
+            confirm_transaction.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            confirm_transaction.Size = new Size(128, 39);
+            confirm_transaction.TabIndex = 63;
+            confirm_transaction.Text = "Delete";
+            confirm_transaction.Click += confirm_transaction_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -1082,12 +1082,12 @@
         private Guna.UI2.WinForms.Guna2Panel sales_panel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
         private Guna.UI2.WinForms.Guna2DataGridView transaction_table;
-        private Guna.UI2.WinForms.Guna2Button confirm_transaction;
         private Label user_name;
         private Label user_position;
         private Guna.UI2.WinForms.Guna2Panel customer_panel;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Guna.UI2.WinForms.Guna2DataGridView customer_table;
         private Guna.UI2.WinForms.Guna2Button edit;
+        private Guna.UI2.WinForms.Guna2Button confirm_transaction;
     }
 }

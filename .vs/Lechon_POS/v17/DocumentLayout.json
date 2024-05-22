@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\lechon_pos\\lechon_pos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\lechon_pos\\lechon_pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\lechon_pos\\lechon_pos\\editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|c:\\users\\fzkn4\\music\\fzkn4\\c isnt sharp\\lechon_pos\\lechon_pos\\editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\lechon_transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\lechon_transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\editcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\lechon_transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -33,22 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\lechon_belly_transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\lechon_belly_transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\lechon_pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A9E2191-776D-4F0A-A251-B7AD07FF813E}|Lechon_POS\\Lechon_POS.csproj|solutionrelative:lechon_pos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,11 +66,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form1.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form1.cs",
+              "RelativeToolTip": "Lechon_POS\\Form1.cs",
+              "ViewState": "AQIAANMAAAAAAAAAAAAIwOkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:15:18.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EditCustomer.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\EditCustomer.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\EditCustomer.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\EditCustomer.cs [Design]",
+              "RelativeToolTip": "Lechon_POS\\EditCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T21:04:32.283Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\register.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\register.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\register.cs [Design]",
+              "RelativeToolTip": "Lechon_POS\\register.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T00:09:34.398Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\login.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\login.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\login.cs [Design]",
+              "RelativeToolTip": "Lechon_POS\\login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:44:36.104Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "login.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\login.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\login.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\login.cs",
+              "RelativeToolTip": "Lechon_POS\\login.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAkwHMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T22:00:15.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Program.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\Program.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Program.cs",
+              "RelativeToolTip": "Lechon_POS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T21:55:23.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form1.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\Form1.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form1.cs [Design]",
+              "RelativeToolTip": "Lechon_POS\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T21:44:24.086Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "register.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\register.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\register.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\register.cs",
+              "RelativeToolTip": "Lechon_POS\\register.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAASwHwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T00:38:51.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "lechon_transaction.cs",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\lechon_transaction.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\lechon_transaction.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\lechon_transaction.cs",
+              "RelativeToolTip": "Lechon_POS\\lechon_transaction.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwEgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T01:26:33.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form2.cs",
+              "RelativeDocumentMoniker": "Lechon_POS\\Form2.cs",
+              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form2.cs [Design]",
+              "RelativeToolTip": "Lechon_POS\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T02:38:19.832Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "EditCustomer.cs",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\EditCustomer.cs",
               "RelativeDocumentMoniker": "Lechon_POS\\EditCustomer.cs",
@@ -75,57 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EditCustomer.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\EditCustomer.cs",
-              "RelativeDocumentMoniker": "Lechon_POS\\EditCustomer.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\EditCustomer.cs [Design]",
-              "RelativeToolTip": "Lechon_POS\\EditCustomer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T21:04:32.283Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "lechon_transaction.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\lechon_transaction.cs",
-              "RelativeDocumentMoniker": "Lechon_POS\\lechon_transaction.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\lechon_transaction.cs",
-              "RelativeToolTip": "Lechon_POS\\lechon_transaction.cs",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAqwJQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T01:26:33.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form1.cs",
-              "RelativeDocumentMoniker": "Lechon_POS\\Form1.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form1.cs [Design]",
-              "RelativeToolTip": "Lechon_POS\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T21:44:24.086Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form1.cs",
-              "RelativeDocumentMoniker": "Lechon_POS\\Form1.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Form1.cs",
-              "RelativeToolTip": "Lechon_POS\\Form1.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAIwAsAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T22:15:18.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "lechon_transaction.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\lechon_transaction.cs",
               "RelativeDocumentMoniker": "Lechon_POS\\lechon_transaction.cs",
@@ -137,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "lechon_belly_transaction.cs",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\lechon_belly_transaction.cs",
               "RelativeDocumentMoniker": "Lechon_POS\\lechon_belly_transaction.cs",
@@ -145,64 +228,20 @@
               "RelativeToolTip": "Lechon_POS\\lechon_belly_transaction.cs",
               "ViewState": "AQIAADYAAAAAAAAAAAAIwEYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T15:35:58.964Z"
+              "WhenOpened": "2024-05-11T15:35:58.964Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "lechon_belly_transaction.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\lechon_belly_transaction.cs",
               "RelativeDocumentMoniker": "Lechon_POS\\lechon_belly_transaction.cs",
               "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\lechon_belly_transaction.cs [Design]",
               "RelativeToolTip": "Lechon_POS\\lechon_belly_transaction.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T00:48:14.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "login.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\login.cs",
-              "RelativeDocumentMoniker": "Lechon_POS\\login.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\login.cs",
-              "RelativeToolTip": "Lechon_POS\\login.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAIwDYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T22:00:15.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "register.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\register.cs",
-              "RelativeDocumentMoniker": "Lechon_POS\\register.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\register.cs [Design]",
-              "RelativeToolTip": "Lechon_POS\\register.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T00:09:34.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\login.cs",
-              "RelativeDocumentMoniker": "Lechon_POS\\login.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\login.cs [Design]",
-              "RelativeToolTip": "Lechon_POS\\login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:44:36.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Program.cs",
-              "RelativeDocumentMoniker": "Lechon_POS\\Program.cs",
-              "ToolTip": "C:\\Users\\Fzkn4\\Music\\Fzkn4\\C isnt sharp\\Lechon_POS\\Lechon_POS\\Program.cs",
-              "RelativeToolTip": "Lechon_POS\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T21:55:23.279Z"
+              "WhenOpened": "2024-05-12T00:48:14.694Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

@@ -48,3 +48,4 @@ C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-w
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\Lechon_POS.login.resources
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\Lechon_POS.register.resources
 C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\Lechon_POS.EditCustomer.resources
+C:\Users\Fzkn4\Music\Fzkn4\C isnt sharp\Lechon_POS\Lechon_POS\obj\Debug\net6.0-windows\Lechon_POS.Form2.resources

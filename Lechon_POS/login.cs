@@ -52,7 +52,7 @@ namespace Lechon_POS
                 MySqlDataReader readerauj = Comauj.ExecuteReader();
                 if (readerauj.Read())
                 {
-                    name = readerauj["lname"].ToString() +", "+ readerauj["fname"].ToString();
+                    name = readerauj["lname"].ToString() + ", " + readerauj["fname"].ToString();
                     user_position = readerauj["position"].ToString();
                     Form1 mainpage = new Form1();
                     mainpage.Show();
@@ -107,6 +107,13 @@ namespace Lechon_POS
         {
             username.Clear();
             password.Clear();
+        }
+
+        private void label3_MouseClick(object sender, MouseEventArgs e)
+        {
+            register window = new register();
+            window.Show();
+            this.Hide();
         }
     }
 }
