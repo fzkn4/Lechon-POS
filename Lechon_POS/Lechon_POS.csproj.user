@@ -25,5 +25,8 @@
     <Compile Update="register.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="transaction_filter_window.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

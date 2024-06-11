@@ -73,7 +73,7 @@
             // username
             // 
             username.BackColor = Color.FromArgb(250, 241, 214);
-            username.BorderColor = Color.FromArgb(220, 107, 25);
+            username.BorderColor = Color.FromArgb(134, 43, 13);
             username.BorderRadius = 6;
             username.CustomizableEdges = customizableEdges1;
             username.DefaultText = "";
@@ -82,10 +82,10 @@
             username.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             username.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             username.FillColor = Color.FromArgb(250, 241, 214);
-            username.FocusedState.BorderColor = Color.FromArgb(121, 84, 88);
+            username.FocusedState.BorderColor = Color.FromArgb(134, 43, 13);
             username.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            username.ForeColor = Color.FromArgb(220, 107, 25);
-            username.HoverState.BorderColor = Color.FromArgb(220, 107, 25);
+            username.ForeColor = Color.FromArgb(134, 43, 13);
+            username.HoverState.BorderColor = Color.FromArgb(134, 43, 13);
             username.Location = new Point(395, 201);
             username.Margin = new Padding(4, 4, 4, 4);
             username.Name = "username";
@@ -103,7 +103,7 @@
             label1.AutoSize = true;
             label1.BackColor = Color.FromArgb(250, 241, 214);
             label1.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.ForeColor = Color.FromArgb(220, 107, 25);
+            label1.ForeColor = Color.FromArgb(134, 43, 13);
             label1.Location = new Point(409, 272);
             label1.Name = "label1";
             label1.Size = new Size(69, 15);
@@ -114,8 +114,8 @@
             // 
             label13.BackColor = Color.FromArgb(250, 241, 214);
             label13.FlatStyle = FlatStyle.Popup;
-            label13.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label13.ForeColor = Color.FromArgb(220, 107, 25);
+            label13.Font = new Font("Microsoft Tai Le", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label13.ForeColor = Color.FromArgb(134, 43, 13);
             label13.Location = new Point(507, 21);
             label13.Name = "label13";
             label13.Size = new Size(275, 76);
@@ -126,7 +126,7 @@
             // password
             // 
             password.BackColor = Color.FromArgb(250, 241, 214);
-            password.BorderColor = Color.FromArgb(220, 107, 25);
+            password.BorderColor = Color.FromArgb(134, 43, 13);
             password.BorderRadius = 6;
             password.CustomizableEdges = customizableEdges3;
             password.DefaultText = "";
@@ -135,10 +135,10 @@
             password.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             password.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             password.FillColor = Color.FromArgb(250, 241, 214);
-            password.FocusedState.BorderColor = Color.FromArgb(121, 84, 88);
+            password.FocusedState.BorderColor = Color.FromArgb(134, 43, 13);
             password.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            password.ForeColor = Color.FromArgb(220, 107, 25);
-            password.HoverState.BorderColor = Color.FromArgb(220, 107, 25);
+            password.ForeColor = Color.FromArgb(134, 43, 13);
+            password.HoverState.BorderColor = Color.FromArgb(134, 43, 13);
             password.Location = new Point(395, 281);
             password.Margin = new Padding(4, 4, 4, 4);
             password.Name = "password";
@@ -157,7 +157,7 @@
             label.AutoSize = true;
             label.BackColor = Color.FromArgb(250, 241, 214);
             label.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label.ForeColor = Color.FromArgb(220, 107, 25);
+            label.ForeColor = Color.FromArgb(134, 43, 13);
             label.Location = new Point(409, 191);
             label.Name = "label";
             label.Size = new Size(73, 15);
@@ -175,12 +175,12 @@
             confirm_login.DisabledState.CustomBorderColor = Color.DarkGray;
             confirm_login.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             confirm_login.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            confirm_login.FillColor = Color.FromArgb(220, 107, 25);
+            confirm_login.FillColor = Color.FromArgb(134, 43, 13);
             confirm_login.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             confirm_login.ForeColor = Color.FromArgb(250, 241, 214);
-            confirm_login.HoverState.BorderColor = Color.FromArgb(220, 107, 25);
+            confirm_login.HoverState.BorderColor = Color.FromArgb(134, 43, 13);
             confirm_login.HoverState.FillColor = Color.FromArgb(250, 241, 214);
-            confirm_login.HoverState.ForeColor = Color.FromArgb(220, 107, 25);
+            confirm_login.HoverState.ForeColor = Color.FromArgb(134, 43, 13);
             confirm_login.Location = new Point(395, 357);
             confirm_login.Name = "confirm_login";
             confirm_login.PressedColor = Color.White;
@@ -196,7 +196,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.FromArgb(250, 241, 214);
             label2.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.ForeColor = Color.FromArgb(220, 107, 25);
+            label2.ForeColor = Color.FromArgb(134, 43, 13);
             label2.Location = new Point(409, 111);
             label2.Name = "label2";
             label2.Size = new Size(77, 15);
@@ -206,7 +206,7 @@
             // fname
             // 
             fname.BackColor = Color.FromArgb(250, 241, 214);
-            fname.BorderColor = Color.FromArgb(220, 107, 25);
+            fname.BorderColor = Color.FromArgb(134, 43, 13);
             fname.BorderRadius = 6;
             fname.CustomizableEdges = customizableEdges7;
             fname.DefaultText = "";
@@ -215,10 +215,10 @@
             fname.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             fname.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             fname.FillColor = Color.FromArgb(250, 241, 214);
-            fname.FocusedState.BorderColor = Color.FromArgb(121, 84, 88);
+            fname.FocusedState.BorderColor = Color.FromArgb(134, 43, 13);
             fname.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            fname.ForeColor = Color.FromArgb(220, 107, 25);
-            fname.HoverState.BorderColor = Color.FromArgb(220, 107, 25);
+            fname.ForeColor = Color.FromArgb(134, 43, 13);
+            fname.HoverState.BorderColor = Color.FromArgb(134, 43, 13);
             fname.Location = new Point(395, 121);
             fname.Margin = new Padding(4, 4, 4, 4);
             fname.Name = "fname";
@@ -236,7 +236,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.FromArgb(250, 241, 214);
             label3.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.FromArgb(220, 107, 25);
+            label3.ForeColor = Color.FromArgb(134, 43, 13);
             label3.Location = new Point(674, 272);
             label3.Name = "label3";
             label3.Size = new Size(123, 15);
@@ -246,7 +246,7 @@
             // conf_pass
             // 
             conf_pass.BackColor = Color.FromArgb(250, 241, 214);
-            conf_pass.BorderColor = Color.FromArgb(220, 107, 25);
+            conf_pass.BorderColor = Color.FromArgb(134, 43, 13);
             conf_pass.BorderRadius = 6;
             conf_pass.CustomizableEdges = customizableEdges9;
             conf_pass.DefaultText = "";
@@ -255,10 +255,10 @@
             conf_pass.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             conf_pass.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             conf_pass.FillColor = Color.FromArgb(250, 241, 214);
-            conf_pass.FocusedState.BorderColor = Color.FromArgb(121, 84, 88);
+            conf_pass.FocusedState.BorderColor = Color.FromArgb(134, 43, 13);
             conf_pass.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            conf_pass.ForeColor = Color.FromArgb(220, 107, 25);
-            conf_pass.HoverState.BorderColor = Color.FromArgb(220, 107, 25);
+            conf_pass.ForeColor = Color.FromArgb(134, 43, 13);
+            conf_pass.HoverState.BorderColor = Color.FromArgb(134, 43, 13);
             conf_pass.Location = new Point(660, 281);
             conf_pass.Margin = new Padding(4, 4, 4, 4);
             conf_pass.Name = "conf_pass";
@@ -278,7 +278,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.FromArgb(250, 241, 214);
             label4.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.ForeColor = Color.FromArgb(220, 107, 25);
+            label4.ForeColor = Color.FromArgb(134, 43, 13);
             label4.Location = new Point(674, 111);
             label4.Name = "label4";
             label4.Size = new Size(76, 15);
@@ -288,7 +288,7 @@
             // lname
             // 
             lname.BackColor = Color.FromArgb(250, 241, 214);
-            lname.BorderColor = Color.FromArgb(220, 107, 25);
+            lname.BorderColor = Color.FromArgb(134, 43, 13);
             lname.BorderRadius = 6;
             lname.CustomizableEdges = customizableEdges11;
             lname.DefaultText = "";
@@ -297,10 +297,10 @@
             lname.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             lname.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             lname.FillColor = Color.FromArgb(250, 241, 214);
-            lname.FocusedState.BorderColor = Color.FromArgb(121, 84, 88);
+            lname.FocusedState.BorderColor = Color.FromArgb(134, 43, 13);
             lname.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            lname.ForeColor = Color.FromArgb(220, 107, 25);
-            lname.HoverState.BorderColor = Color.FromArgb(220, 107, 25);
+            lname.ForeColor = Color.FromArgb(134, 43, 13);
+            lname.HoverState.BorderColor = Color.FromArgb(134, 43, 13);
             lname.Location = new Point(660, 121);
             lname.Margin = new Padding(4, 4, 4, 4);
             lname.Name = "lname";
@@ -318,7 +318,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.FromArgb(250, 241, 214);
             label5.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.ForeColor = Color.FromArgb(220, 107, 25);
+            label5.ForeColor = Color.FromArgb(134, 43, 13);
             label5.Location = new Point(674, 191);
             label5.Name = "label5";
             label5.Size = new Size(59, 15);
@@ -328,7 +328,7 @@
             // position
             // 
             position.BackColor = Color.FromArgb(250, 241, 214);
-            position.BorderColor = Color.FromArgb(220, 107, 25);
+            position.BorderColor = Color.FromArgb(134, 43, 13);
             position.BorderRadius = 6;
             position.CustomizableEdges = customizableEdges13;
             position.DefaultText = "";
@@ -337,10 +337,10 @@
             position.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
             position.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
             position.FillColor = Color.FromArgb(250, 241, 214);
-            position.FocusedState.BorderColor = Color.FromArgb(121, 84, 88);
+            position.FocusedState.BorderColor = Color.FromArgb(134, 43, 13);
             position.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            position.ForeColor = Color.FromArgb(220, 107, 25);
-            position.HoverState.BorderColor = Color.FromArgb(220, 107, 25);
+            position.ForeColor = Color.FromArgb(134, 43, 13);
+            position.HoverState.BorderColor = Color.FromArgb(134, 43, 13);
             position.Location = new Point(660, 201);
             position.Margin = new Padding(4, 4, 4, 4);
             position.Name = "position";
@@ -356,21 +356,23 @@
             // back
             // 
             back.Animated = true;
-            back.BorderColor = Color.FromArgb(220, 107, 25);
+            back.BorderColor = Color.FromArgb(251, 204, 27);
+            back.BorderRadius = 6;
             back.BorderThickness = 1;
             back.CustomizableEdges = customizableEdges15;
             back.DisabledState.BorderColor = Color.DarkGray;
             back.DisabledState.CustomBorderColor = Color.DarkGray;
             back.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             back.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            back.FillColor = Color.FromArgb(220, 107, 25);
+            back.FillColor = Color.FromArgb(251, 204, 27);
             back.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             back.ForeColor = Color.FromArgb(121, 84, 88);
-            back.HoverState.BorderColor = Color.FromArgb(220, 107, 25);
-            back.HoverState.FillColor = Color.FromArgb(250, 241, 214);
+            back.HoverState.BorderColor = Color.FromArgb(251, 204, 27);
+            back.HoverState.FillColor = Color.FromArgb(251, 204, 27);
             back.HoverState.Image = (Image)resources.GetObject("resource.Image");
             back.Image = (Image)resources.GetObject("back.Image");
-            back.Location = new Point(4, 2);
+            back.ImageSize = new Size(24, 24);
+            back.Location = new Point(7, 4);
             back.Name = "back";
             back.PressedColor = Color.White;
             back.ShadowDecoration.CustomizableEdges = customizableEdges16;
@@ -392,7 +394,7 @@
             // 
             // guna2Panel1
             // 
-            guna2Panel1.BackColor = Color.FromArgb(220, 107, 25);
+            guna2Panel1.BackColor = Color.FromArgb(251, 204, 27);
             guna2Panel1.Controls.Add(label6);
             guna2Panel1.Controls.Add(pictureBox1);
             guna2Panel1.Controls.Add(back);
@@ -406,10 +408,10 @@
             // 
             // label6
             // 
-            label6.BackColor = Color.FromArgb(220, 107, 25);
+            label6.BackColor = Color.FromArgb(251, 204, 27);
             label6.FlatStyle = FlatStyle.Popup;
             label6.Font = new Font("Lucida Calligraphy", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.ForeColor = Color.FromArgb(250, 241, 214);
+            label6.ForeColor = Color.FromArgb(134, 43, 13);
             label6.Location = new Point(4, 293);
             label6.Name = "label6";
             label6.Size = new Size(352, 76);
@@ -419,7 +421,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.BackColor = Color.FromArgb(220, 107, 25);
+            pictureBox1.BackColor = Color.FromArgb(251, 204, 27);
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(99, 96);
             pictureBox1.Name = "pictureBox1";
